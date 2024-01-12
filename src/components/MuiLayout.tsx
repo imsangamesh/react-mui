@@ -4,6 +4,7 @@ const MuiLayout = () => {
   return (
     <Paper sx={{ p: 2 }} elevation={4}>
       <Stack
+        mb={5}
         padding={2}
         border="1px solid"
         direction="row"
@@ -29,7 +30,7 @@ const MuiLayout = () => {
           bgcolor="success.light"></Box>
       </Stack>
 
-      <Grid container my={4} rowSpacing={2} columnSpacing={1}>
+      <Grid container spacing={2} bgcolor="pink" pb={2} pr={2}>
         <Grid item xs={12} sm={6} md={4} lg={3}>
           <Box bgcolor="primary.light" p={2}>
             Item 1
@@ -52,7 +53,7 @@ const MuiLayout = () => {
         </Grid>
       </Grid>
 
-      <Grid container my={4} spacing={2}>
+      {/* <Grid container my={4} spacing={2}>
         <Grid item xs>
           <Box bgcolor="primary.light" p={2}>
             Item 1
@@ -73,7 +74,7 @@ const MuiLayout = () => {
             Item 4
           </Box>
         </Grid>
-      </Grid>
+      </Grid> */}
     </Paper>
   );
 };

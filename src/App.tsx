@@ -1,6 +1,6 @@
 import { colors, createTheme, ThemeProvider } from "@mui/material";
 import "./App.css";
-import MuiResponsiveness from "./components/MuiResponsiveness";
+// import MuiResponsiveness from "./components/MuiResponsiveness";
 // import MuiTabs from "./components/MuiTabs";
 // import MuiLoadingButton from "./components/MuiLoadingButton";
 // import MuiProgress from "./components/MuiProgress";
@@ -22,7 +22,7 @@ import MuiResponsiveness from "./components/MuiResponsiveness";
 // import MuiImageList from "./components/MuiImageList";
 // import MuiAccordian from "./components/MuiAccordian";
 // import MuiCard from "./components/MuiCard";
-// import MuiLayout from "./components/MuiLayout";
+import Mui from "./components/MuiLayout";
 // import MuiAutoComplete from "./components/MuiAutoComplete";
 // import MuiRating from "./components/MuiRating";
 // import MuiSwitch from "./components/MuiSwitch";
@@ -61,7 +61,7 @@ function App() {
         {/* <MuiSwitch /> */}
         {/* <MuiRating /> */}
         {/* <MuiAutoComplete /> */}
-        {/* <MuiLayout /> */}
+        <Mui />
         {/* <MuiCard /> */}
         {/* <MuiAccordian /> */}
         {/* <MuiImageList /> */}
@@ -84,7 +84,7 @@ function App() {
         {/* <MuiSkeleton /> */}
         {/* <MuiLoadingButton /> */}
         {/* <MuiTabs /> */}
-        <MuiResponsiveness />
+        {/* <MuiResponsiveness /> */}
       </div>
     </ThemeProvider>
   );
